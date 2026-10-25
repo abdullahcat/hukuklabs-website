@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <rect width="640" height="480" rx="16" fill="#e8e4dc"/>
+  <rect x="32" y="48" width="576" height="384" rx="12" fill="#1a1a18"/>
+  <rect x="48" y="64" width="544" height="32" rx="4" fill="#2a2a28"/>
+  <rect x="64" y="74" width="60" height="12" rx="2" fill="#6b6860"/>
+  <rect x="48" y="112" width="544" height="304" rx="4" fill="#141412"/>
+  <text x="64" y="140" font-family="ui-monospace,monospace" font-size="11" fill="#6b6860">GET /v1/mevzuat/search?q=...</text>
+  <text x="64" y="168" font-family="ui-monospace,monospace" font-size="11" fill="#a8c4a0">{</text>
+  <text x="80" y="192" font-family="ui-monospace,monospace" font-size="11" fill="#c4b8a0">"results": [</text>
+  <text x="96" y="216" font-family="ui-monospace,monospace" font-size="11" fill="#d4cfc6">{"title": "TBK m.125", "score": 0.94},</text>
+  <text x="96" y="240" font-family="ui-monospace,monospace" font-size="11" fill="#d4cfc6">{"title": "Yarg1tay 11. HD", "score": 0.89}</text>
+  <text x="80" y="264" font-family="ui-monospace,monospace" font-size="11" fill="#c4b8a0">],</text>
+  <text x="80" y="288" font-family="ui-monospace,monospace" font-size="11" fill="#a8c4a0">"total": 847</text>
+  <text x="64" y="312" font-family="ui-monospace,monospace" font-size="11" fill="#6b6860">}</text>
+  <rect x="400" y="340" width="160" height="36" rx="6" fill="#2a2a28" stroke="#3a3a38"/>
+  <text x="420" y="362" font-family="ui-monospace,monospace" font-size="10" fill="#6b6860">200 OK � 142ms</text>
+</svg>

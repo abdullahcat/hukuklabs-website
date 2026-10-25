@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <rect width="640" height="480" rx="16" fill="#e8e4dc"/>
+  <rect x="24" y="24" width="592" height="432" rx="12" fill="#f0ede6" stroke="#d4cfc6" stroke-width="1"/>
+  <rect x="24" y="24" width="592" height="40" rx="12" fill="#ebe7df"/>
+  <circle cx="48" cy="44" r="6" fill="#c0392b" opacity="0.7"/>
+  <circle cx="68" cy="44" r="6" fill="#d4cfc6"/>
+  <circle cx="88" cy="44" r="6" fill="#d4cfc6"/>
+  <rect x="48" y="88" width="160" height="320" rx="8" fill="#ebe7df" stroke="#d4cfc6"/>
+  <rect x="64" y="108" width="80" height="8" rx="2" fill="#d4cfc6"/>
+  <rect x="64" y="128" width="120" height="6" rx="2" fill="#d4cfc6" opacity="0.6"/>
+  <rect x="64" y="148" width="100" height="6" rx="2" fill="#1a1a18" opacity="0.15"/>
+  <rect x="64" y="168" width="110" height="6" rx="2" fill="#d4cfc6" opacity="0.6"/>
+  <rect x="64" y="188" width="90" height="6" rx="2" fill="#d4cfc6" opacity="0.6"/>
+  <rect x="232" y="88" width="360" height="320" rx="8" fill="#faf9f6" stroke="#d4cfc6"/>
+  <rect x="256" y="112" width="200" height="12" rx="2" fill="#1a1a18" opacity="0.12"/>
+  <rect x="256" y="140" width="300" height="6" rx="2" fill="#d4cfc6"/>
+  <rect x="256" y="158" width="280" height="6" rx="2" fill="#d4cfc6"/>
+  <rect x="256" y="176" width="260" height="6" rx="2" fill="#d4cfc6"/>
+  <rect x="256" y="210" width="180" height="6" rx="2" fill="#1a1a18" opacity="0.08"/>
+  <rect x="256" y="228" width="300" height="6" rx="2" fill="#d4cfc6"/>
+  <rect x="256" y="246" width="240" height="6" rx="2" fill="#d4cfc6"/>
+  <rect x="256" y="290" width="120" height="28" rx="4" fill="#1a1a18" opacity="0.85"/>
+  <rect x="256" y="334" width="80" height="28" rx="4" fill="#ebe7df" stroke="#d4cfc6"/>
+  <rect x="480" y="112" width="88" height="24" rx="4" fill="#ebe7df" stroke="#d4cfc6"/>
+  <text x="504" y="128" font-family="system-ui,sans-serif" font-size="10" fill="#6b6860">AI</text>
+</svg>

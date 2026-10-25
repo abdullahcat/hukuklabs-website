@@ -1,0 +1,201 @@
+{
+  "yearlyDiscountPercent": 10,
+  "currency": "TRY",
+  "footnote": "",
+  "faq": [
+    {
+      "question": "Kredi nasıl işler?",
+      "answer": "Her plan aylık bir kredi bakiyesi (paylaşımlı havuz) verir. Dilekçe, sözleşme, içtihat/mevzuat araması ve danışma — hepsi aynı havuzdan, gerçek kullandığınız kadar düşer. Kullanmadığınız kredi başka bir işe kayar; özellik başına sabit kota yoktur.\n\nFarklı işlemler farklı kredi yer çünkü uzun bir dilekçe taslağı kısa bir soru-cevaptan daha fazla işlem gücü gerektirir — tüketim ölçülmüş ortalama maliyete göre orantılıdır, keyfi değildir.\n\nHer planın ayrıca günlük bir tavanı vardır; bu, aylık bakiyenin erken tükenmesini önleyen bir hız sınırıdır ve ayın kalan bakiyesini aşamaz. Ay sonunda kullanılmayan aylık kredi bir sonraki aya devretmez.\n\nAylık bakiyeniz biterse hizmetiniz kesilmez: ek kredi paketi satın alabilirsiniz (plan yükseltmek zorunda değilsiniz). Satın alınan krediler süresiz geçerlidir ve aylık bakiyenin aksine bir sonraki aya devreder.\n\nYıllık planlarda kredi bakiyeniz her ay aynı şekilde yenilenir; peşin ödeme yalnızca faturalandırma şeklini değiştirir."
+    },
+    {
+      "question": "3 gün ücretsiz deneme nasıl çalışır?",
+      "answer": "Seçtiğiniz planı 3 gün boyunca günlük 300 kredi ile ücretsiz deneyebilirsiniz. Deneme için kredi kartı bilgisi gereklidir ancak deneme süresince herhangi bir tahsilat yapılmaz. Deneme süresi sona erdiğinde ve iptal etmediğiniz takdirde kayıtlı kartınızdan seçtiğiniz planın ücreti otomatik olarak tahsil edilerek aboneliğiniz aylık olarak başlayacaktır. Deneme süresi boyunca dilediğiniz zaman ücretsiz iptal edebilirsiniz."
+    },
+    {
+      "question": "Denemeyi iptal edersem ücret alınır mı?",
+      "answer": "Hayır. 3 günlük deneme süresi bitmeden iptal ederseniz kayıtlı kartınızdan herhangi bir tutar tahsil edilmez."
+    },
+    {
+      "question": "Yıllık plan otomatik yenilenir mi?",
+      "answer": "Hayır. Yıllık planlar 12 ay sonunda otomatik olarak yenilenmez. Süre dolmadan önce size bir hatırlatma gönderir, dilerseniz yeniden ödeme yaparak planınızı uzatabilirsiniz."
+    },
+    {
+      "question": "Aylık kotamı aşarsam ne olur?",
+      "answer": "Hizmetiniz kesilmez. Aylık kotanız bittiğinde, eğer daha önce ek kredi satın aldıysanız sisteminiz otomatik olarak bu bakiyeden düşmeye devam eder. Ek krediniz yoksa yeni kredi satın alabilir veya bir sonraki ay kotanızın yenilenmesini bekleyebilirsiniz."
+    },
+    {
+      "question": "İstediğim zaman iptal edebilir miyim?",
+      "answer": "Evet, aylık planlar dilediğiniz zaman iptal edilebilir. İptal ettiğinizde mevcut fatura döneminin sonuna kadar erişiminiz devam eder."
+    },
+    {
+      "question": "'2 kat' veya '5 kat kullanım kapasitesi' ne demek?",
+      "answer": "Her plan bir önceki kademenin katları şeklinde kullanım kapasitesi sunar. Örneğin Pro, Solo'nun 2 katı; Max, Solo'nun 5 katı kapasiteye sahiptir. Bu kapasiteyi dilekçe yazımı, içtihat araması ve diğer işlemler arasında istediğiniz gibi dağıtabilirsiniz."
+    }
+  ],
+  "baseFeatures": [
+    "Studio — tam erişim",
+    "Lens — UYAP aktarımı + hatırlatıcı",
+    "Lens — sınırsız PDF indirme",
+    "Dışa aktarım: PDF, DOCX, UDF",
+    "Gelişmiş şablon kütüphanesi"
+  ],
+  "plans": [
+    {
+      "slug": "ucretsiz",
+      "name": "Ücretsiz",
+      "kind": "free",
+      "monthlyPrice": 0,
+      "yearlyPrice": 0,
+      "monthlyEquivalent": 0,
+      "monthlyCredits": null,
+      "dailyCap": null,
+      "capacityMultiplier": null,
+      "badges": [],
+      "popular": false,
+      "features": {
+        "studioAccess": "none",
+        "lensSync": "none",
+        "lensPdf": "unlimited",
+        "exportFormats": ["pdf"],
+        "templateLibrary": "none",
+        "supportChannel": "help_center",
+        "supportResponseHours": null,
+        "extraCredits": "none",
+        "invoicing": "none"
+      },
+      "cta": "Chrome'a Ekle",
+      "ctaHref": "https://chrome.hukuklabs.com",
+      "showOn": ["lens"]
+    },
+    {
+      "slug": "solo",
+      "name": "Solo",
+      "kind": "paid",
+      "monthlyPrice": 2390,
+      "yearlyPrice": 25812,
+      "monthlyEquivalent": 2151,
+      "annualSavings": 2868,
+      "monthlyCredits": 20000,
+      "dailyCap": 1700,
+      "capacityMultiplier": 1,
+      "tagline": "Düzenli çalışan bireysel avukatlar için",
+      "includesEverythingIn": null,
+      "exampleScenario": {
+        "documentsMonthly": 40,
+        "searchesMonthly": 60
+      },
+      "badges": [],
+      "popular": false,
+      "features": {
+        "studioAccess": "full",
+        "lensSync": "priority",
+        "lensPdf": "unlimited",
+        "exportFormats": ["pdf", "docx", "udf"],
+        "templateLibrary": "advanced_custom",
+        "supportChannel": "email_chat_phone",
+        "supportResponseHours": 4,
+        "extraCredits": true,
+        "invoicing": "auto"
+      },
+      "showOn": ["studio", "lens"]
+    },
+    {
+      "slug": "pro",
+      "name": "Pro",
+      "kind": "paid",
+      "monthlyPrice": 4490,
+      "yearlyPrice": 48492,
+      "monthlyEquivalent": 4041,
+      "annualSavings": 5388,
+      "monthlyCredits": 40000,
+      "dailyCap": 3400,
+      "capacityMultiplier": 2,
+      "tagline": "Yoğun çalışan avukatlar ve küçük ekipler için",
+      "includesEverythingIn": "solo",
+      "exampleScenario": {
+        "documentsMonthly": 80,
+        "searchesMonthly": 120
+      },
+      "badges": [],
+      "popular": false,
+      "features": {
+        "studioAccess": "full",
+        "lensSync": "priority",
+        "lensPdf": "unlimited",
+        "exportFormats": ["pdf", "docx", "udf"],
+        "templateLibrary": "advanced_custom",
+        "supportChannel": "email_chat_phone",
+        "supportResponseHours": 4,
+        "extraCredits": true,
+        "invoicing": "auto"
+      },
+      "showOn": ["studio", "lens"]
+    },
+    {
+      "slug": "max",
+      "name": "Max",
+      "kind": "paid",
+      "monthlyPrice": 9990,
+      "yearlyPrice": 107892,
+      "monthlyEquivalent": 8991,
+      "annualSavings": 11988,
+      "monthlyCredits": 100000,
+      "dailyCap": 8500,
+      "capacityMultiplier": 5,
+      "tagline": "Büyük dosya hacmiyle çalışan bürolar için",
+      "includesEverythingIn": "pro",
+      "exampleScenario": {
+        "documentsMonthly": 200,
+        "searchesMonthly": 300
+      },
+      "badges": [],
+      "popular": false,
+      "features": {
+        "studioAccess": "full",
+        "lensSync": "priority",
+        "lensPdf": "unlimited",
+        "exportFormats": ["pdf", "docx", "udf"],
+        "templateLibrary": "advanced_custom",
+        "supportChannel": "email_chat_phone",
+        "supportResponseHours": 4,
+        "extraCredits": true,
+        "invoicing": "auto"
+      },
+      "showOn": ["studio", "lens"]
+    },
+    {
+      "slug": "enterprise",
+      "name": "Enterprise",
+      "kind": "enterprise",
+      "monthlyPrice": null,
+      "yearlyPrice": null,
+      "monthlyEquivalent": null,
+      "monthlyCredits": null,
+      "dailyCap": null,
+      "capacityMultiplier": null,
+      "tagline": "Max'ın üzerinde daha yüksek kapasite ihtiyacı olan büyük bürolar için",
+      "includesEverythingIn": "max",
+      "tierExtras": [
+        "Kendi kredi havuzunuz — kullanım hacminize göre özel birim fiyat",
+        "Max'ın üzerinde özel kullanım kapasitesi"
+      ],
+      "badges": [],
+      "popular": false,
+      "pricingModel": "volume_based",
+      "features": {
+        "studioAccess": "full",
+        "lensSync": "priority",
+        "lensPdf": "unlimited",
+        "exportFormats": ["pdf", "docx", "udf"],
+        "templateLibrary": "advanced_custom",
+        "supportChannel": "email_chat_phone",
+        "supportResponseHours": 4,
+        "extraCredits": true,
+        "invoicing": "auto"
+      },
+      "cta": "Kota İhtiyacınızı Bildirin",
+      "ctaHref": "/enterprise",
+      "showOn": ["studio", "lens"]
+    }
+  ]
+}

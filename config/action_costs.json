@@ -1,0 +1,12 @@
+{
+  "source": "bench/RESULTS.md (2026-08-26), 1 kredi = $0.001",
+  "modes": {
+    "dilekce": 162.6375,
+    "sozlesme": 126.0363,
+    "ictihat": 130.0503,
+    "mevzuat": 30.8842,
+    "danisma": 12.9208,
+    "deep_research": 978,
+    "ocr_page": 1
+  }
+}
